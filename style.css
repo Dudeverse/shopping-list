@@ -70,12 +70,12 @@ ul {
 li {
     display: flex;
     justify-content: space-between;
-    border: 1px solid black;
     background: #d5eeff;
     margin-bottom: 10px;
     padding: 10px;
     border: 5px solid #ff895d;
-    border-radius: 5px;
+    border-radius: 15px;
+    width: 588px;
   }
 
   li button {
