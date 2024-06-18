@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en-US">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+PL:wght@100..400&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping list example</title>
@@ -8,17 +11,23 @@
     <script src="script.js" defer></script>
   </head>
   <body>
+    <div class="container">
+        <div class="heading">
+            <h1>My shopping list</h1>
+        </div>
+    
 
-    <h1>My shopping list</h1>
+        <div class="inputField">
+            <label id="label" for="item">Enter a new item:</label>
+            <input type="text" name="item" id="item">
+            <button id="add-btn" onclick="addItem()">Add</button>
+        </div>
+        <div class="items">
+            <ul>
 
-    <div>
-      <label for="item">Enter a new item:</label>
-      <input type="text" name="item" id="item">
-      <button onclick="addItem()">Add item</button>
-    </div>
-
-    <ul>
-
-    </ul>
+            </ul>
+        </div>
+    
+</div>
   </body>
 </html>

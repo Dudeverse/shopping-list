@@ -8,7 +8,9 @@ const addItem = () => {
     const listItem = document.createElement("li");
     const itemName = document.createElement("span");
     const delButton = document.createElement("button");
+    const listdiv = document.createElement("div");
 
+    listdiv.appendChild(listItem);
     listItem.appendChild(itemName);
     listItem.appendChild(delButton);
 

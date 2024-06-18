@@ -1,9 +1,92 @@
+
+.container {
+    background: #005689; 
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 5px solid #ff895d;
+    padding: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    gap: 10px;
+}
+
+.heading {
+    border-radius: 15px;
+    background: #007cb9;
+    font-size: 24px;
+    display: flex;
+    border: 5px solid #ff895d;
+    padding: 10px 80px;
+}
+
+.inputField {
+    font-size:20px;
+    border-radius: 15px;
+    background: #007cb9;
+    border: 5px solid #ff895d;
+    display: flex;
+    gap: 10px;
+    padding: 15px 30px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#label {
+    display: flex;
+}
+#item {
+    display: flex;
+    border-radius: 5px;
+    font-size: 25px;
+}
+#add-btn{
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color:  #ff895d;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+
+}
+.items {
+    display: flex;;
+
+}
+ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
 li {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    background: #d5eeff;
     margin-bottom: 10px;
+    padding: 10px;
+    border: 5px solid #ff895d;
+    border-radius: 5px;
   }
 
   li button {
     font-size: 12px;
     margin-left: 20px;
-    color: #666;
+    font-family: "Playwrite PL", cursive;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    background-color:  #ff895d;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 20px;
   }
